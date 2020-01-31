@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <h1>Render multiple Urls</h1>
+        <form action="/render" method="POST">
+            <div id="left">
+                <label for="user-agent">User Agent:</label><br>
+                <textarea name="useragent" id="user-agent" style="width: 200px; height: 100px">Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z‡ Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)</textarea>
+                <br><br>
+                <label for="width">Viewport Width (px):</label><br>
+                <input type="text" name="width" id="width" value="410">
+                <br><br>
+                <label for="height">Viewport Height (px):</label><br>
+                <input type="text" name="height" id="height" value="730">
+                <br><br>
+                <input type="submit" value="Request Rendering">
+            </div>
+            <div id="right">
+                <label for="urls">Url List:</label><br>
+                <textarea name="urls" id="urls" style="width: 700px; height: 700px;"></textarea>
+             </div>
+        </form>
+    </body>
+</html>

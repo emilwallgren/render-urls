@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(224, 222, 222);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#left {
+    display: block;
+    float: left;
+}
+
+#right {
+    display: block;
+    float: right;
+}
