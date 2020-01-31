@@ -7,11 +7,11 @@ The output consists of a rendered screenshot as well as a rendered HTML-file per
 Runs on node/express and provides an user interface for modifying user-agent, viewport and a list of urls to render.
 
 ## Installation
-1. Download from Github...DERP...
-2. Install node.js....DERP...
-3. Navigate to the root-folder in the terminal
+1. Download this code from Github
+2. Install node.js
+3. Navigate to the root-folder of this application in the terminal
 4. Run *npm install* in the terminal
-5. Remove the file located in the /Output folder
+5. Remove the file located in the /Output folder since it's a dummy-file
 6. Run *npm run dev* in the terminal
 7. Open http://localhost:3000 in your browser
 
