@@ -1,5 +1,7 @@
 # render-urls
-A node script meant to render a list of urls.
+A node script meant to render a list of urls locally on your computer.
+If you want to use this online, make sure to make it more secure, since no security is implemented in this application.
+
 The output consists of a rendered screenshot as well as a rendered HTML-file per url you submit.
 
 Runs on node/express and provides an user interface for modifying user-agent, viewport and a list of urls to render.
