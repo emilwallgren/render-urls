@@ -1,0 +1,3 @@
+Remove this file but keep the folder
+
+Only here to upload empty Output-folder to Github

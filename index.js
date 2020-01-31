@@ -60,7 +60,6 @@ app.post('/render', (req, res) => {
 
     lines.forEach(url => {
         run(userAgent, width, height, url);
-        itemsProcessed++;
     });
 
     res.redirect(301, "/download")
